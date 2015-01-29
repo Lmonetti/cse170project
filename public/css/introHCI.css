@@ -1,0 +1,40 @@
+/* applies to anything of class "example-class-selector" */
+.example-class-selector {
+	margin-top: 2em;
+}
+
+/* applies to any <p> descendants of an element of class "example-class-selector" */
+.example-class-selector p {
+	/* Colors are in hexadecimal: http://www.colorpicker.com/ */	
+	color: #FFFFFF;
+}
+
+.jumbotron {
+	position: relative;
+	background: none;
+}
+
+body {
+    background-image: url("../images/background_logo.png");
+    /*background-color: #cccccc;*/
+}
+
+.jumbotron:after {
+     content:"";
+     background: url("../images/lorempixel.jumbotron.jpeg");
+     opacity: 0.2;
+     top: 0;
+     left: 0;
+     bottom: 0;
+     right: 0;
+     position: absolute;
+     z-index: -1;	
+}
+
+.jumbotron p {
+     color: #FFFFFF;
+}
+
+.project a {
+     text-align: center;
+}
