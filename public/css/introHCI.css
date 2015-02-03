@@ -64,23 +64,17 @@ ul#navigation li.last {
 }*/
 
 /*Strip the ul of padding and list styling*/
-#menu{
-    /*width:300px; <--------Here*/
-    margin: 0 auto; <-----Here
-    /*padding: 5px 0 0 0;
-    list-style: none;
-    background-color:#333333;
-    text-align:center;*/
-}
+
 
 ul {
     position: fixed;
     bottom: 0;
     width: 100%;
-    list-style-type:none;
-    margin:0;
+    /*margin:0;*/
     padding:0;
-    text-align: center;
+    /*text-align: center;*/
+    display: inline-block;
+    list-style-type: none;
     /*position: absolute;*/
 }
 

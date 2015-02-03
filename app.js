@@ -13,6 +13,9 @@ var project = require('./routes/project');
 var login = require('./routes/login');
 var register = require('./routes/register');
 
+var newsfeed = require('./routes/newsfeed');
+var publish = require('./routes/publish');
+var profile = require('./routes/profile');
 // Example route
 // var user = require('./routes/user');
 
@@ -43,6 +46,10 @@ app.get('/', index.view);
 app.get('/login', login.view);
 app.get('/register', register.view);
 app.get('/project/:name' , project.viewProject)
+
+app.get('/newsfeed', newsfeed.view);
+app.get('/publish', publish.view);
+app.get('/profile', profile.view);
 // Example route
 // app.get('/users', user.list);
 

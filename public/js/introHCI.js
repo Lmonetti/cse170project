@@ -16,10 +16,31 @@ function initializePage() {
 
 	// Add any additional listeners here
 	// example: $("#div-id").click(functionToCall);
-	$("a.thumbnail").click(projectClick);
+  // $("a.thumbnail").click(projectClick);
   $("#submitBtn").click(updateProject); 
   $("#registerBtn").click(goToRegister); 
+  $("#TopS").click(goToTopStories);
+  $("#NewsFeed").click(goToNewsFeed);
+  $("#Publish").click(goToPublish);
+  $("#Profile").click(goToProfile);
 
+}
+
+function goToTopStories(e) {
+	console.log("Top Stories Link clicked!");
+	window.location='/login';
+}
+
+function goToNewsFeed(e) {
+	window.location='/newsfeed';
+}
+
+function goToPublish(e) {
+	window.location='/publish';
+}
+
+function goToProfile(e) {
+	window.location='/profile';
 }
 
 function updateProject(e) {
