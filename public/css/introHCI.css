@@ -19,6 +19,113 @@ body {
     /*background-color: #cccccc;*/
 }
 
+html, body {
+ height: 100%;
+}
+
+/*ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}*/
+
+/*.MainContainer {
+    width: 1200px;
+    background-color: #0066CC;
+}
+.MenuContainer {
+    height: 70px;
+    bottom:0;
+}
+ul#navigation {
+    position: fixed;
+     bottom: 0;
+     width: 100%;
+    height: 70px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #ccc;
+    border-width: 1px 0;    
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Cham-WebFont', Arial, sans-serif;
+    background-color: #FFF;
+}
+ul#navigation li {
+    display: inline;
+    margin-right: .75em;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ul#navigation li.last {
+    margin-right: 0;
+}*/
+
+/*Strip the ul of padding and list styling*/
+#menu{
+    /*width:300px; <--------Here*/
+    margin: 0 auto; <-----Here
+    /*padding: 5px 0 0 0;
+    list-style: none;
+    background-color:#333333;
+    text-align:center;*/
+}
+
+ul {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    text-align: center;
+    /*position: absolute;*/
+}
+
+/*Create a horizontal list with spacing*/
+li {
+
+    display:inline-block;
+    float: left;
+    margin-right: 1px;
+    text-align: center;
+}
+
+/*Hover state for top level links*/
+
+li a {
+
+    display:block;
+    min-width:140px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #fff;
+    background: #2f3036;
+    text-decoration: none;
+}
+
+li:hover a {
+    background: #19c589;
+}
+
+/*Style for dropdown links*/
+li:hover ul a {
+    background: #f3f3f3;
+    color: #2f3036;
+    height: 40px;
+    line-height: 40px;
+}
+
+/*Hover state for dropdown links*/
+li:hover ul a:hover {
+    background: #19c589;
+    color: #fff;
+}
+
 .jumbotron:after {
      content:"";
      background: url("../images/lorempixel.jumbotron.jpeg");
