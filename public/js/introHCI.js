@@ -18,12 +18,17 @@ function initializePage() {
 	// example: $("#div-id").click(functionToCall);
   // $("a.thumbnail").click(projectClick);
   $("#submitBtn").click(updateProject); 
+  $("#logoutBtn").click(logout); 
   $("#registerBtn").click(goToRegister); 
   $("#TopS").click(goToTopStories);
   $("#NewsFeed").click(goToNewsFeed);
   $("#Publish").click(goToPublish);
   $("#Profile").click(goToProfile);
 
+}
+
+function logout(e) {
+	window.location='/';
 }
 
 function goToTopStories(e) {
