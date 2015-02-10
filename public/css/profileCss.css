@@ -25,12 +25,18 @@ html, body {
 
 #imageList {
     font-size: 0;
-     width: 252px;
+     width: 272px;
      margin: 0 auto;
 }
 
 #imageList a {
-    margin: 1px;
+    margin: 2px;
+    /*border: 4px solid #333;*/
+    display: inline-block;
+}
+
+#imageList a:hover {
+    border-color: white;
 }
 
 /*ul {
