@@ -23,20 +23,14 @@ html, body {
  height: 100%;
 }
 
-#image_box {
-   width:90%;
-   margin:0px auto;
+#imageList {
+    font-size: 0;
+     width: 252px;
+     margin: 0 auto;
 }
 
-.col {
-   width:18%;
-   float:left;
-   margin:0px 1%;
-}
-img{
-  width:100%;
-  height:auto;
-  margin-top:6%;
+#imageList a {
+    margin: 1px;
 }
 
 /*ul {
