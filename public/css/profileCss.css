@@ -23,7 +23,7 @@ html, body {
  height: 100%;
 }
 
-/*#image_box {
+#image_box {
    width:90%;
    margin:0px auto;
 }
@@ -37,7 +37,7 @@ img{
   width:100%;
   height:auto;
   margin-top:6%;
-}*/
+}
 
 /*ul {
     list-style-type: none;
