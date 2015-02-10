@@ -39,6 +39,10 @@ html, body {
     border-color: white;
 }
 
+.bg-header {
+  padding-left: 5px; 
+}
+
 /*ul {
     list-style-type: none;
     margin: 0;
