@@ -199,5 +199,36 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#14b9ef', end
 }
 
 
+#pos1 {
+    position: relative;
+    left: 200px;
+    top:25px;
+}
 
+#pos2 {
+    position: relative;
+    right: 200px;
+    top:25px;
+}
 
+#toLeft {
+    position: relative;
+    right: 300px;
+    bottom: 100px;
+    max-width: 350px;
+}
+#toLeft2 {
+    position: relative;
+    right: 100px;
+    bottom: 75px;
+    max-width: 350px;
+}
+#toRight {
+    position: relative;
+    left: 100px;
+    bottom: 100px;
+    max-width: 350px;
+}
+div {
+    max-height: 200px;
+}

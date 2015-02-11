@@ -16,6 +16,10 @@ var register = require('./routes/register');
 var newsfeed = require('./routes/newsfeed');
 var publish = require('./routes/publish');
 var profile = require('./routes/profile');
+var story1 = require('./routes/story1');
+var story2 = require('./routes/story2');
+var story3 = require('./routes/story3');
+var story4 = require('./routes/story4');
 // Example route
 // var user = require('./routes/user');
 
@@ -50,6 +54,10 @@ app.get('/project/:name' , project.viewProject)
 app.get('/newsfeed', newsfeed.view);
 app.get('/publish', publish.view);
 app.get('/profile', profile.view);
+app.get('/story1', story1.view);
+app.get('/story2', story2.view);
+app.get('/story3', story3.view);
+app.get('/story4', story4.view);
 // Example route
 // app.get('/users', user.list);
 
