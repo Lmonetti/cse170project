@@ -7,20 +7,101 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
-	<link href="css/introHCI.css" rel="stylesheet">
+	<link href="css/profileCss.css" rel="stylesheet">
     
 </head>
 
 <body>
 <center>
-	<div class="container">
-		
-		<center>
-		<div class="jumbotron">
-			<p>Your Profile!</p>
-			
+
+		<!-- <div id="profileDetails">
+			<a href="#"><img src="images/n6.jpg" /></a>
+			<br>
+		</div> -->
+	<center>
+		<div class="bg-header">
+			<div>
+		   		<img src="images/profile1.png" class = "img-circle" height="50" width="50">
+			</div>
+			<div>
+				<p> Julian </p>
+			</div>
+		    <a href="http://www.linkedin.com/" target="_blank"><img border="0" src="images/linkedin.png" alt="LinkedIn Profile" width="50" height="50" /></a>
+		    <a href="http://www.instagram.com" target="_blank"><img border="0" src="images/instagram_icon.png" alt="LinkedIn Profile" width="50" height="50" /></a>
+		    <a href="https://www.facebook.com/" target="_blank"><img border="0" src="images/facebook.png" alt="LinkedIn Profile" width="50" height="50" /></a>
+		    <a href="http://www.twitter.com" target="_blank"><img border="0" src="images/twitter.png" alt="LinkedIn Profile" width="50" height="50" /></a>
 		</div>
-		</center>
+	</center>
+
+		<div class="container">
+		
+		<div id="imageList">
+			
+			<a href="#" id="story1"><img src="images/n1.png" /></a>
+			<a href="#" id="story2"><img src="images/n2.png" /></a>
+			<a href="#" id="story3"><img src="images/n3.png" /></a>
+			<a href="#" id="story4"><img src="images/n4.jpg" /></a>
+
+
+			<!-- {{#each stories}}
+				<a href="#"><img src="{{imageURL}}" /></a>
+
+		    {{/each}}-->
+
+		</div>
+	<center>
+		<br>
+		<a href="#" id="newstory"><button id="newStoryBtn" type="button">+ New Story</button></a>
+	</center>
+
+
+
+					<!-- <ul class="rig">
+						<li>
+							<img src="images/n1.png" />
+							<h3>Image Title</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+						</li>
+						<li>
+							<img src="images/n1.png" />
+							<h3>Image Title</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+						</li>
+						<li>
+							<img src="images/n1.png" />
+							<h3>Image Title</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+						</li>
+						<li>
+							<img src="images/n1.png" />
+							<h3>Image Title</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+						</li>
+					</ul> -->
+					<!-- <div class="col">
+					<img src="images/n1.png" class="img-responsive" alt="Responsive image">
+					<img src="images/n3.png" class="img-responsive" alt="Responsive image">
+					</div>
+
+
+					<div class="col">
+					<img src="images/n2.png" class="img-responsive" alt="Responsive image">
+					<img src="images/n4.jpg" class="img-responsive" alt="Responsive image">
+					</div> -->
+
+					<!-- <div id="big_wrap">
+					    <div><img src="images/n1.png" class="img-responsive" alt="Responsive image"></div>
+					    <div><img src="images/n1.png" class="img-responsive" alt="Responsive image"></div>
+					    <div><img src="images/n1.png" class="img-responsive" alt="Responsive image"></div>
+					    <div><img src="images/n1.png" class="img-responsive" alt="Responsive image"></div>
+					</div> -->
+
+					<!-- <section id="photos">
+					  <img src="images/n2.png" alt="Little doggie">
+					  <img src="images/n2.png" alt="Little kittie">
+					</section> -->
+
+
 
 <!-- 		<center>
 		<div class="MainContainer">
@@ -36,7 +117,16 @@
         </ul>
     </div>
     </center> -->
+
+
+
+
+
+   <center>
+    <br>
     <button id="logoutBtn" type="button" class="btn btn-default">Logout</button>
+	</center>
+
     <center>
     <ul id="menu">
 		<li id="TopS"><a href="#">Top Stories</a></li>
@@ -59,7 +149,7 @@
 		<!-- <li><a href="#">Contact</a></li> -->
 	</ul>
 	</center>
-	</div>
+	</div>	
 	
 
 	<script src="https://code.jquery.com/jquery.js"></script>

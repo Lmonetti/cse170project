@@ -20,7 +20,11 @@ var story1 = require('./routes/story1');
 var story2 = require('./routes/story2');
 var story3 = require('./routes/story3');
 var story4 = require('./routes/story4');
-// Example route
+var story5 = require('./routes/story5');
+var story6 = require('./routes/story6');
+var newstory = require('./routes/newstory');
+var published = require('./routes/published');
+// Example route('./routes/story4');
 // var user = require('./routes/user');
 
 var app = express();
@@ -58,6 +62,11 @@ app.get('/story1', story1.view);
 app.get('/story2', story2.view);
 app.get('/story3', story3.view);
 app.get('/story4', story4.view);
+app.get('/story5', story5.view);
+app.get('/story6', story6.view);
+app.get('/newstory', newstory.view);
+app.get('/published', published.view);
+
 // Example route
 // app.get('/users', user.list);
 

@@ -1,0 +1,21 @@
+{
+	"stories" : [
+		{
+			"name" : "yosemite" , 
+			"imageURL" : "images/n1.png"
+		}, 
+		{
+			"name" : "skiing" , 
+			"imageURL" : "images/n2.png"
+		},
+		{
+			"name" : "new years eve" , 
+			"imageURL" : "images/n3.png"
+		}, 
+		{
+			"name" : "yosemite" , 
+			"imageURL" : "images/n4.jpg"
+		}
+
+	]
+}
